@@ -1,3 +1,9 @@
+##Change Log
+2014-09-24
+Updated for iPhone 6 , iPhone 6 Plus, AppleTV
+
+
+
 DeviceHardwareInfo
 ==================
 Common method to retrieve the iOS device being used. (Updated for iPhone 5c and iPhone 5s)
