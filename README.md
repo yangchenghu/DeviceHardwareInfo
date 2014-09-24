@@ -1,6 +1,7 @@
 ##Change Log
 2014-09-24
-Updated for iPhone 6 , iPhone 6 Plus, AppleTV
+
++ Updated for iPhone 6 , iPhone 6 Plus, AppleTV
 
 
 
