@@ -1,4 +1,9 @@
 ##Change Log
+
+2014-10-24
+
++ Udpated for iPad Air2 & iPad mini 3 model
+
 2014-09-24
 
 + Updated for iPhone 6 , iPhone 6 Plus, AppleTV
