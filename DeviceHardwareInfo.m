@@ -36,6 +36,7 @@
              @"i386":     @"Simulator",
              @"x86_64":   @"Simulator",
              
+             
              @"iPhone1,1":  @"iPhone",
              @"iPhone1,2":  @"iPhone 3G",
              @"iPhone2,1":  @"iPhone 3GS",
@@ -51,6 +52,7 @@
              @"iPhone7,1":  @"iPhone 6 Plus",
              @"iPhone7,2":  @"iPhone 6",
 
+             
              @"iPad1,1":    @"iPad",
              @"iPad2,1":    @"iPad 2(WiFi)",
              @"iPad2,2":    @"iPad 2(GSM)",
@@ -71,12 +73,18 @@
              @"iPad4,4":    @"iPad Mini Retina(Wi-Fi)",
              @"iPad4,5":    @"iPad Mini Retina(Wi-Fi + Cellular)",
              @"iPad4,6":    @"iPad Mini Retina(Wi-Fi + Cellular CN)",
+             @"iPad4,7":    @"iPad mini 3 (Wi-Fi Only)",
+             @"iPad4,8":    @"iPad mini 3 (Wi-Fi/Cellular)",
+             @"iPad5,3":    @"iPad Air 2 (Wi-Fi Only)",
+             @"iPad5,4":    @"iPad Air 2 (Wi-Fi/Cellular)",
+             
              
              @"iPod1,1":    @"iPod 1st Gen",
              @"iPod2,1":    @"iPod 2nd Gen",
              @"iPod3,1":    @"iPod 3rd Gen",
              @"iPod4,1":    @"iPod 4th Gen",
              @"iPod5,1":    @"iPod 5th Gen",
+             
              
              @"AppleTV1,1": @"Apple TV",
              @"AppleTV2,1": @"AppleTV(2nd Gen)",
