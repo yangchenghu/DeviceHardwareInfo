@@ -27,7 +27,16 @@
  
 + (NSString *) deviceModelString
 {
-    return [DeviceHardwareInfo commonNameDictionary][[DeviceHardwareInfo deviceModel]];
+    NSString * strDeviceModel = [[self class] deviceModel];
+
+    NSString * strDeviceModelName = [[self class] commonNameDictionary][strDeviceModel];
+
+    if (nil == strDeviceModelName)
+    {
+        strDeviceModelName = strDeviceModel;
+    }
+
+    return strDeviceModelName;
 }
  
 + (NSDictionary *)commonNameDictionary
@@ -48,8 +57,10 @@
              @"iPhone5,4" : @"iPhone_5c(GSM+CDMA)",
              @"iPhone6,1" : @"iPhone_5s(GSM)",
              @"iPhone6,2" : @"iPhone_5s(GSM+CDMA)",
-             @"iPhone7,1" : @"iPhone_6 Plus",
+             @"iPhone7,1" : @"iPhone_6_Plus",
              @"iPhone7,2" : @"iPhone_6",
+             @"iPhone8,1" : @"iPhone_6s",
+             @"iPhone8,2" : @"iPhone_6s_Plus",
              
              @"iPad1,1" : @"iPad",
              @"iPad2,1" : @"iPad_2(WiFi)",
@@ -73,6 +84,9 @@
              @"iPad4,6" : @"iPad_Mini_Retina(Wi-Fi+Cellular_CN)",
              @"iPad4,7" : @"iPad_mini_3_(Wi-Fi_Only)",
              @"iPad4,8" : @"iPad_mini_3_(Wi-Fi/Cellular)",
+             @"iPad4,9" : @"iPad_mini_3_(Wi-Fi/Cellular)",
+             @"iPad5,1" : @"iPad_mini_4_(Wi-Fi)",
+             @"iPad5,2" : @"iPad_mini_4_(Wi-Fi+Cellular)",
              @"iPad5,3" : @"iPad_Air_2_(Wi-Fi_Only)",
              @"iPad5,4" : @"iPad_Air_2_(Wi-Fi/Cellular)",
              

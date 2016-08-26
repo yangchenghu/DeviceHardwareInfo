@@ -1,5 +1,9 @@
 ##Change Log
 
+2016-08-26
+
++ Udpated for iPhone 6s & iPhone 6s Plus
+
 2014-10-24
 
 + Udpated for iPad Air2 & iPad mini 3 model
