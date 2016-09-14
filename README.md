@@ -1,5 +1,9 @@
 ##Change Log
 
+2016-09-14
+
++ Udpated for iPhone SE & iPad 9.7/12.9
+
 2016-08-26
 
 + Udpated for iPhone 6s & iPhone 6s Plus

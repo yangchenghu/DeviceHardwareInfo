@@ -9,8 +9,8 @@
 #include <sys/sysctl.h>
 
 //you can find new model name in
-//http://www.everymac.com/ultimate-mac-lookup
-
+// http://www.everymac.com/ultimate-mac-lookup
+// http://www.everyi.com/by-identifier/ipod-iphone-ipad-specs-by-model-identifier.html
  
 @implementation DeviceHardwareInfo
  
@@ -61,6 +61,7 @@
              @"iPhone7,2" : @"iPhone_6",
              @"iPhone8,1" : @"iPhone_6s",
              @"iPhone8,2" : @"iPhone_6s_Plus",
+             @"iPhone8,4" : @"iPhone SE",
              
              @"iPad1,1" : @"iPad",
              @"iPad2,1" : @"iPad_2(WiFi)",
@@ -89,12 +90,17 @@
              @"iPad5,2" : @"iPad_mini_4_(Wi-Fi+Cellular)",
              @"iPad5,3" : @"iPad_Air_2_(Wi-Fi_Only)",
              @"iPad5,4" : @"iPad_Air_2_(Wi-Fi/Cellular)",
+             @"iPad6,3" : @"iPad_Pro_9.7-Inch_(Wi-Fi Only)",
+             @"iPad6,4" : @"iPad_Pro_9.7-Inch_(Wi-Fi/Cellular)",
+             @"iPad6,7" : @"iPad_Pro_12.9-Inch_(Wi-Fi Only)",
+             @"iPad6,8" : @"iPad_Pro_12.9-Inch_(Wi-Fi/Cellular)",
              
-             @"iPod1,1" : @"iPod_1st_Gen",
-             @"iPod2,1" : @"iPod_2nd_Gen",
-             @"iPod3,1" : @"iPod_3rd_Gen",
-             @"iPod4,1" : @"iPod_4th_Gen",
-             @"iPod5,1" : @"iPod_5th_Gen",
+             @"iPod1,1" : @"iPod_touch_1st_Gen",
+             @"iPod2,1" : @"iPod_touch_2nd_Gen",
+             @"iPod3,1" : @"iPod_touch_3rd_Gen",
+             @"iPod4,1" : @"iPod_touch_4th_Gen",
+             @"iPod5,1" : @"iPod_touch_5th_Gen",
+             @"iPod7,1" : @"iPod_touch_6th_Gen",
              
              @"AppleTV1,1" : @"Apple_TV",
              @"AppleTV2,1" : @"AppleTV(2nd_Gen)",
