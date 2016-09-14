@@ -2,7 +2,7 @@
 
 2016-09-14
 
-+ Udpated for iPhone SE & iPad 9.7/12.9
++ Udpated for iPhone SE & iPad 9.7/12.9 & iPhone 7
 
 2016-08-26
 

@@ -61,7 +61,9 @@
              @"iPhone7,2" : @"iPhone_6",
              @"iPhone8,1" : @"iPhone_6s",
              @"iPhone8,2" : @"iPhone_6s_Plus",
-             @"iPhone8,4" : @"iPhone SE",
+             @"iPhone8,4" : @"iPhone_SE",
+             @"iPhone9,1" : @"iPhone_7",
+             @"iPhone9,2" : @"iPhone_7_Plus",
              
              @"iPad1,1" : @"iPad",
              @"iPad2,1" : @"iPad_2(WiFi)",
