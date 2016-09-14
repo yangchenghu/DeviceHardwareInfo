@@ -11,7 +11,8 @@
 //you can find new model name in
 // http://www.everymac.com/ultimate-mac-lookup
 // http://www.everyi.com/by-identifier/ipod-iphone-ipad-specs-by-model-identifier.html
- 
+// https://www.theiphonewiki.com/wiki/Models
+
 @implementation DeviceHardwareInfo
  
 + (NSString *) deviceModel
@@ -69,7 +70,7 @@
              @"iPad2,1" : @"iPad_2(WiFi)",
              @"iPad2,2" : @"iPad_2(GSM)",
              @"iPad2,3" : @"iPad_2(CDMA)",
-             @"iPad2,4" : @"iPad_2(WiFi Rev A)",
+             @"iPad2,4" : @"iPad_2(WiFi_Rev_A)",
              @"iPad2,5" : @"iPad_Mini(WiFi)",
              @"iPad2,6" : @"iPad_Mini(GSM)",
              @"iPad2,7" : @"iPad_Mini(GSM+CDMA)",
@@ -92,9 +93,9 @@
              @"iPad5,2" : @"iPad_mini_4_(Wi-Fi+Cellular)",
              @"iPad5,3" : @"iPad_Air_2_(Wi-Fi_Only)",
              @"iPad5,4" : @"iPad_Air_2_(Wi-Fi/Cellular)",
-             @"iPad6,3" : @"iPad_Pro_9.7-Inch_(Wi-Fi Only)",
+             @"iPad6,3" : @"iPad_Pro_9.7-Inch_(Wi-Fi_Only)",
              @"iPad6,4" : @"iPad_Pro_9.7-Inch_(Wi-Fi/Cellular)",
-             @"iPad6,7" : @"iPad_Pro_12.9-Inch_(Wi-Fi Only)",
+             @"iPad6,7" : @"iPad_Pro_12.9-Inch_(Wi-Fi_Only)",
              @"iPad6,8" : @"iPad_Pro_12.9-Inch_(Wi-Fi/Cellular)",
              
              @"iPod1,1" : @"iPod_touch_1st_Gen",
