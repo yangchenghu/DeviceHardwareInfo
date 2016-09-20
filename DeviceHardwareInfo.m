@@ -63,8 +63,10 @@
              @"iPhone8,1" : @"iPhone_6s",
              @"iPhone8,2" : @"iPhone_6s_Plus",
              @"iPhone8,4" : @"iPhone_SE",
-             @"iPhone9,1" : @"iPhone_7",
-             @"iPhone9,2" : @"iPhone_7_Plus",
+             @"iPhone9,1" : @"iPhone_7_(Verizon/Sprint/China/A1660)/(Japan/A1779)/(China_Mobile/A1780)",
+             @"iPhone9,2" : @"iPhone_7_Plus_(Verizon/Sprint/China/A1661)/(Japan/A1785)/(China_Mobile/A1786)",
+             @"iPhone9,3" : @"iPhone_7_(AT&T/T-Mobile/Global/A1778)",
+             @"iPhone9,4" : @"1iPhone_7_Plus_(AT&T/T-Mobile/Global/A1784)"
              
              @"iPad1,1" : @"iPad",
              @"iPad2,1" : @"iPad_2(WiFi)",
